@@ -1,0 +1,39 @@
+#box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 150px auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px grey;
+    cursor: pointer;
+}
+#box:hover{
+    box-shadow: 0px 0px 20px 50px gainsboro;
+    
+}
+#box:active{
+    background-color: yellowgreen;
+}
+#count{
+    color: brown;
+}
+#reset{
+    font-size: 1.5em;
+    color: cadetblue;
+    /* border: 1px solid black; */
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    background-color: chartreuse;
+    border-radius: 10px;
+    padding: 5px;
+}
+#reset:active{
+    background-color: violet;
+    color: brown;
+}
+#text{
+    text-align: center;
+    color: rgb(43, 134, 226);
+}
